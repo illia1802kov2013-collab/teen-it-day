@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="registration">
+
+    <div class="info">
+        <span class="badge">Teen IT Day</span>
+
+        <h1>Реєстрація на Teen IT Day</h1>
+
+        <p>
+            Приєднуйся до події для підлітків, які цікавляться
+            технологіями, програмуванням та сучасним IT.
+        </p>
+
+        <div class="event-info">
+            <div>
+                <strong> Дата</strong>
+                <span>25 жовтня 2026</span>
+            </div>
+
+            <div>
+                <strong> Місце</strong>
+                <span>Київ / Online</span>
+            </div>
+
+            <div>
+                <strong> Формат</strong>
+                <span>Освітня IT-подія</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-box">
+
+        <h2>Зареєструватися</h2>
+
+        <form>
+
+            <div class="field">
+                <label for="name">Ім'я</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Введіть ваше ім'я"
+                    required
+                >
+            </div>
+
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required
+                >
+            </div>
+
+
+            <div class="field">
+                <label for="direction">Напрям</label>
+
+                <select id="direction" name="direction" required>
+                    <option value="">Оберіть напрям</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="design">UI/UX Design</option>
+                    <option value="cybersecurity">Кібербезпека</option>
+                    <option value="ai">Штучний інтелект</option>
+                </select>
+            </div>
+
+
+            <label class="checkbox">
+                <input type="checkbox" required>
+
+                <span>
+                    Я погоджуюсь з
+                    <a href="#">правилами участі</a>
+                    та обробкою даних.
+                </span>
+            </label>
+
+
+            <button type="submit">
+                Зареєструватися
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
